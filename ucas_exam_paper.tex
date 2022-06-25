@@ -1,0 +1,40 @@
+\documentclass[]{article}
+
+\usepackage{ctex}
+\usepackage[a4paper]{geometry}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{arydshln}
+
+\setCJKfamilyfont{HuaWenXingKai}{STXingkai}
+\newcommand{\hwxk}{\CJKfamily{HuaWenXingKai}}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[C]{\heiti 20xx-20xx学年x季学期 \quad 期x考试 \quad 本科生试题专用纸}
+\fancyhead[R]{}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{第 \thepage 页，共 \pageref{LastPage} 页}
+
+\begin{document}
+
+\begin{table*}
+\centering
+\begin{tabular}{p{20em}<{\centering} p{20em}}
+\multirow{2}{*}{\huge \hwxk 中国科学院大学} & 课程编号：xxxxxxxxx \\
+& 课程名称：xxxx \\
+试 \quad 题 \quad 专 \quad 用 \quad 纸 & 任课教师：xxx \\
+\hdashline[1pt/1pt]
+\multicolumn{2}{l}{\small 注意事项：} \\
+\multicolumn{2}{l}{\small 1.考核方式：\underline{\quad xxxx \quad}} \\
+\multicolumn{2}{l}{\small 2.请在规定时间内将本试卷和答题纸一并交回。} \\
+\hline
+\end{tabular}
+\end{table*}
+
+你对本课程印象最深的内容是什么？
+
+\end{document}
